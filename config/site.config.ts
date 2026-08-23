@@ -7,7 +7,7 @@ export const siteConfig = {
   currency: "SAR",
   whatsappNumber: "",
   googleAnalyticsId: "",
-  googleSiteVerification: "",
+  googleSiteVerification: "Nnls2UNbryAXYKdnYZHV-FVJS5-PvdTpJyBl2cZZYRE",
   googleAdsConversionId: "",
 };
 
