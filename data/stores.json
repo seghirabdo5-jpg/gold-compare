@@ -1,0 +1,65 @@
+{
+  "_comment": "أضف متجرًا جديدًا بنسخ أحد الكائنات (objects) بالأسفل وتغيير القيم. أي حقل لا تملك بيانات موثوقة عنه اتركه فارغًا أو null، وسيظهر للمستخدم كـ (غير متوفر حاليًا).",
+  "stores": [
+    {
+      "slug": "zomorod",
+      "name": "زمرد للذهب والماس",
+      "shortDescription": "متجر متخصص في الذهب والماس والمجوهرات في السعودية.",
+      "website": "",
+      "phone": "",
+      "rating": null,
+      "products": { "gold": true, "diamond": true, "jewelry": true },
+      "features": [],
+      "cities": [],
+      "branches": []
+    },
+    {
+      "slug": "alrabsh",
+      "name": "مصاغات الأربش للذهب",
+      "shortDescription": "متجر مصاغات ذهب معروف في السعودية.",
+      "website": "",
+      "phone": "",
+      "rating": null,
+      "products": { "gold": true, "diamond": false, "jewelry": true },
+      "features": [],
+      "cities": [],
+      "branches": []
+    },
+    {
+      "slug": "colin-cleef",
+      "name": "كولن كليف",
+      "shortDescription": "متجر مجوهرات وذهب.",
+      "website": "",
+      "phone": "",
+      "rating": null,
+      "products": { "gold": true, "diamond": true, "jewelry": true },
+      "features": [],
+      "cities": [],
+      "branches": []
+    },
+    {
+      "slug": "alghunaim",
+      "name": "مجوهرات الغنيم",
+      "shortDescription": "متجر مجوهرات وذهب معروف في الخليج.",
+      "website": "",
+      "phone": "",
+      "rating": null,
+      "products": { "gold": true, "diamond": true, "jewelry": true },
+      "features": [],
+      "cities": [],
+      "branches": []
+    },
+    {
+      "slug": "onyx-rose",
+      "name": "أونيكس روز للذهب والمجوهرات",
+      "shortDescription": "متجر ذهب ومجوهرات.",
+      "website": "",
+      "phone": "",
+      "rating": null,
+      "products": { "gold": true, "diamond": false, "jewelry": true },
+      "features": [],
+      "cities": [],
+      "branches": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAF8F4;
+  color: #211D18;
+}
+
+.card {
+  @apply bg-white border border-line rounded-card shadow-sm;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-ink text-paper px-6 py-3 text-sm font-medium hover:bg-gold-dark transition-colors;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink/20 text-ink px-6 py-3 text-sm font-medium hover:border-gold hover:text-gold-dark transition-colors;
+}
+
+.section {
+  @apply max-w-5xl mx-auto px-4 sm:px-6;
+}
