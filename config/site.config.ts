@@ -20,7 +20,13 @@ export const goldPriceConfig = {
 
 export const affiliateLinks: Record<string, string> = {
   zomorod: "",
-  alrabsh: "",
+  alrabsh: "export const affiliateLinks: Record<string, string> = {
+  zomorod: "",
+  alrabsh: "https://alarbashjew.com/?utm_source=linkaraby&utm_medium=referral&a_aid=0xl4b7gu1x2zl&a_bid=2e2f8972",
+  "colin-cleef": "",
+  alghunaim: "",
+  "onyx-rose": "",
+};",
   "colin-cleef": "",
   alghunaim: "",
   "onyx-rose": "",
