@@ -2,11 +2,16 @@ import Link from "next/link";
 import type { Store } from "@/lib/types";
 import { affiliateLinks } from "@/config/site.config";
 
-export default function StoreCard({ store }: { store: Store }) {
+export default function StoreCard({ store }: { store: Store & { badge?: string } }) {
   const affiliateUrl = affiliateLinks[store.slug];
 
   return (
     <div className="card p-6 flex flex-col gap-3">
+      {store.badge && (
+        <span className="self-start rounded-full bg-gold/15 text-gold-dark text-xs font-medium px-3 py-1">
+          {store.badge}
+        </span>
+      )}
       <h3 className="font-display font-bold text-lg text-ink">{store.name}</h3>
       <p className="text-sm text-muted">{store.shortDescription}</p>
 
