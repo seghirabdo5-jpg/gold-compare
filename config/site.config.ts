@@ -27,7 +27,7 @@ export const siteConfig = {
 
   // ---------------- تتبع وتحليلات ----------------
   // ضع معرف Google Analytics هنا (مثال: G-XXXXXXXXXX). اتركه فارغًا للتعطيل.
-  googleAnalyticsId: "",
+  googleAnalyticsId: "G-LH1LXDQV3K",
 
   // كود تحقق Google Search Console
   googleSiteVerification: "Nnls2UNbryAXYKdnYZHV-FVJS5-PvdTpJyBl2cZZYRE",
