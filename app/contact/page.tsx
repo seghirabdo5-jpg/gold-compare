@@ -9,8 +9,7 @@ export default function ContactPage() {
       <h1 className="font-display text-2xl font-bold text-ink mb-6">تواصل معنا</h1>
       <p>لأي استفسار أو ملاحظة حول محتوى الموقع، يمكنك التواصل عبر البريد الإلكتروني التالي:</p>
       <p className="mt-2 font-medium">
-        {/* عدّل البريد الإلكتروني هنا */}
-        info@example.com
+        goodgoldbyers19@gmail.com
       </p>
       {siteConfig.whatsappNumber && (
         <p className="mt-2">واتساب: {siteConfig.whatsappNumber}</p>
