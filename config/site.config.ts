@@ -43,15 +43,10 @@ export const affiliateLinks: Record<string, string> = {
   alghunaim: "https://alghunaim-jewelry.com/category/BqDwYD?a_aid=0xl4b7gu1x2zl&a_bid=53c943a9",
   "onyx-rose": "",
 };",
-  "onyx-rose": "export const affiliateLinks: Record<string, string> = {
-  zomorod: "",
+  "onyx-rose": export const affiliateLinks: Record<string, string> = {
+  zomorod: "https://zomorodjew.com/?a_aid=0xl4b7gu1x2zl&a_bid=6cbb7f02",
   alrabsh: "https://alarbashjew.com/?utm_source=linkaraby&utm_medium=referral&a_aid=0xl4b7gu1x2zl&a_bid=2e2f8972",
-  "colin-cleef": "",
+  "colin-cleef": "https://collenclive.com/?a_aid=0xl4b7gu1x2zl&a_bid=e463700d",
   alghunaim: "https://alghunaim-jewelry.com/category/BqDwYD?a_aid=0xl4b7gu1x2zl&a_bid=53c943a9",
   "onyx-rose": "https://onexrose.com/?a_aid=0xl4b7gu1x2zl&a_bid=47d0ce85",
-};",
-};",
-  "colin-cleef": "",
-  alghunaim: "",
-  "onyx-rose": "",
 };
